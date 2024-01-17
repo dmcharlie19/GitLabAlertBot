@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitLabAlertBot.API", "src\GitLabAlertBot.API\GitLabAlertBot.API.csproj", "{BD893E03-FA8D-4B97-A67D-525B639F429E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitLabAlertBot.PollingAgent", "src\GitLabAlertBot.PollingAgent\GitLabAlertBot.PollingAgent.csproj", "{6CE85C98-3D6C-45F4-B15E-D9CE50D20610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitLabAlertBot.Telegram", "src\GitLabAlertBot.Telegram\GitLabAlertBot.Telegram.csproj", "{C405761B-319B-4478-B4DE-E3CDD704784A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitLabAlertBot.Domain", "src\GitLabAlertBot.Contracts\GitLabAlertBot.Domain.csproj", "{8924732C-B311-40DA-A3B3-C92D2B1D7122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitLabAlertBot.Infrastructure", "src\GitLabAlertBot.Infrastructure\GitLabAlertBot.Infrastructure.csproj", "{1F39BA9E-DE21-4A0C-AFB4-22A9F337086B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD893E03-FA8D-4B97-A67D-525B639F429E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD893E03-FA8D-4B97-A67D-525B639F429E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD893E03-FA8D-4B97-A67D-525B639F429E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD893E03-FA8D-4B97-A67D-525B639F429E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE85C98-3D6C-45F4-B15E-D9CE50D20610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE85C98-3D6C-45F4-B15E-D9CE50D20610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE85C98-3D6C-45F4-B15E-D9CE50D20610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE85C98-3D6C-45F4-B15E-D9CE50D20610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C405761B-319B-4478-B4DE-E3CDD704784A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C405761B-319B-4478-B4DE-E3CDD704784A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C405761B-319B-4478-B4DE-E3CDD704784A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C405761B-319B-4478-B4DE-E3CDD704784A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8924732C-B311-40DA-A3B3-C92D2B1D7122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8924732C-B311-40DA-A3B3-C92D2B1D7122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8924732C-B311-40DA-A3B3-C92D2B1D7122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8924732C-B311-40DA-A3B3-C92D2B1D7122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F39BA9E-DE21-4A0C-AFB4-22A9F337086B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F39BA9E-DE21-4A0C-AFB4-22A9F337086B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F39BA9E-DE21-4A0C-AFB4-22A9F337086B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F39BA9E-DE21-4A0C-AFB4-22A9F337086B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A8A06B-BE23-43A8-B39A-1C48D1CCAF2C}
+	EndGlobalSection
+EndGlobal
